@@ -1,0 +1,295 @@
+body {
+  color: #000000;
+  background-color: #DDD;
+  font-size: 87.5%;
+  font-family: Arial, 'Lucida Sans Unicode';
+  line-height: 1;
+  text-align: left;
+}
+
+.body {
+  margin: 0 auto;
+  width: 800px;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a: visited{
+
+
+}
+
+a:link, a:active{
+
+
+}
+
+.mainheader img {
+  width: 100%;
+  height: 100%;
+  margin: 0% 0;
+  border-radius: 5px;
+
+}
+
+.mainheader nav {
+  background-color: #777;
+  height: 42px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+}
+
+.mainheader nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.mainheader nav ul li {
+  float: center;
+  display: inline;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited {
+    color: #EEE;
+    display: inline-block;
+    padding: 10px 35px;
+
+}
+
+.mainheader nav a:hover, .mainheader nav a:active {
+    color: #FFFF00;
+    background-color: red;
+    height: 22px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.active {
+
+  background-color: #CCC;
+  height: 22px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.mainContent {
+
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 65%;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 20px;
+  padding: 5px 20px;
+  float: left;
+  box-shadow: 1px 2px;
+}
+
+.sidebar {
+
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 22%;
+  line-height: 45px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  float: right;
+  box-shadow: 1px 2px;
+
+}
+
+.forms {
+   background-color: #FFFFFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 65%;
+  line-height: 45px;
+  text-align: left;
+  margin-top: 20px;
+  padding: 5px 20px;
+  float: left;
+  box-shadow: 1px 2px;
+}
+
+.footer {
+
+  background-color: white;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 94%;
+  float: left;
+  text-align: center;
+  box-shadow: 1px 2px;
+  margin-top: 25px;
+  padding: 1% 1% 1% 5%;
+}
+
+.input{
+  border-radius: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.textfield{
+
+  width: 100%;
+  height: 600px;
+  text-align: left;
+  font-size: 12px;
+
+}
+
+.button{
+  font-size: 30px;
+  background-color: #888;
+  color: #EEE;
+  width: 100%;
+  height: 40px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 0px;
+
+}
+
+.newinput {
+
+  width: 85%;
+  height: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-align: left;
+  font-size: 12px;
+  margin: 3% 0% 0% 0%;
+
+}
+.newbutton {
+
+  width:13%;
+  font-size: 18px;
+  background-color: #888;
+  color: #EEE;
+  height: 27px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 0px;
+  margin: 3% 0% 0% 0%;
+  float: right;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 832px){
+
+
+  .body {
+
+    width: 95%;
+    font-size: 95%;
+  }
+
+  .mainheader nav {
+      height: 200px;
+
+  }
+
+  .mainheader nav ul {
+    padding-left: 0;
+  }
+
+  .mainheader nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mainheader nav a:link, .mainheader nav a:visited {
+      padding: 10px 26px;
+      height: 20px;
+      display: block;
+  }
+
+  .content {
+
+    width: 90%;
+
+  }
+  .mainContent {
+
+    width: 90%;
+    padding: 5%;
+
+  }
+  .post-info {
+
+    display: none;
+
+  }
+
+  .sidebar {
+    float: center;
+    width: 92%;
+    text-align: center;
+    padding: 4% 4%;
+  }
+
+  .forms {
+    float: center;
+    width: 92%;
+    text-align: center;
+    padding: 4% 4%;
+
+  }
+
+  .footer {
+
+    width: 90%;
+    padding: 1% 5% 1% 5%;
+
+  }
+  .textfield {
+
+    width: 110%;
+
+  }
+  .newinput {
+
+    width: 110%;
+    height: 20px;
+    border-radius: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-align: left;
+    font-size: 12px;
+    margin: 3% 0% 0% 0%;
+
+  }
+  .newbutton {
+
+    width:110%;
+    font-size: 30px;
+    background-color: #888;
+    color: #EEE;
+    height: 40px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 0px;
+    margin: 3% 0% 0% 0%;
+
+  }
+}
